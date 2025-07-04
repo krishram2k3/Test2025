@@ -8,7 +8,7 @@ BIRTHDAY=`date -d "$BIRTHDATE" +%A`
 
 if [ "$BIRTHDATE" == "may 17, 1982" ] ; then
     echo "BIRTHDATE is correct, it is $BIRTHDATE"
-else
+els
     echo "BIRTHDATE is incorrect - please retry"
 fi
 if [ $Presents == 10 ] ; then
