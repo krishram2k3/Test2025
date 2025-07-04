@@ -19,5 +19,5 @@ fi
 if [ "$BIRTHDAY" == "Monday" ] ; then
     echo "I was born on a $BIRTHDAY"
 else
-    echo "BIRTHDAY is incorrect - please retry"
+    echo "BIRTHDAY is incorrect - please re-retry"
 fi
