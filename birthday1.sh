@@ -2,7 +2,7 @@
 # Change this code version1
 BIRTHDATE="may 17, 1982"
 Presents=10
-BIRTHDAY= `date -d "$BIRTHDATE" +%A`
+BIRTHDAY=`date -d "$BIRTHDATE" +%A`
 
 # Testing code - do not change it
 
